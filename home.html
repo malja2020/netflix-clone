@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="posters/logo.png" type="image/x-icon">
+  <title>Netflix Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <img src="posters/netflix-logo.png" class="nav-logo" alt="Netflix">
+  <ul class="nav-links">
+    <li>Home</li>
+    <li>TV Shows</li>
+    <li>Movies</li>
+    <li>New & Popular</li>
+    <li>My List</li>
+  </ul>
+
+  <div class="search-container">
+    <input type="text" class="search-bar" placeholder="Search...">
+  </div>
+
+  <div class="user-dropdown">
+    <!-- Default profile image or fallback -->
+    <img src="posters/sung.jpg" class="user-icon" alt="User" id="profile-icon">
+    <div class="dropdown-menu">
+      <a href="#">Account</a>
+      <a href="#">Settings</a>
+      <a href="index.html">Logout</a>
+    </div>
+  </div>
+</header>
+
+
+<section id="landing">
+    <div class="landing-content">
+      <img src="posters/netflix-logo.png" class="logo" alt="Netflix Logo">
+      <div class="landing-text">
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <h2>Watch anywhere. Cancel anytime.</h2>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="email-form">
+          <input type="email" placeholder="Email address">
+          <a href="who.html"><button>Get Started ></button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<main class="movie-section">
+
+    <h2>Top 10 Movies</h2>
+    <div class="carousel top10-carousel">
+      <button class="arrow left">&#10094;</button>
+      <div class="carousel-container">
+        <div class="movie">
+          <span class="rank">1</span>
+          <video src="trailer/havoc.mp4" loop poster="posters/1.jpg" class="video"></video>
+        </div>
+        <div class="movie">
+          <span class="rank">2</span>
+          <video src="trailer/ihostage.mp4" loop poster="posters/2.jpg" class="video"></video>
+        </div>
+        <div class="movie">
+          <span class="rank">3</span>
+          <video src="trailer/bullet-train-explosion.mp4" loop poster="posters/3.jpg" class="video"></video>
+        </div>
+        <div class="movie">
+          <span class="rank">4</span>
+          <video src="trailer/jewel.mp4" loop poster="posters/4.jpg" class="video"></video>
+        </div>
+        <div class="movie">
+          <span class="rank">5</span>
+          <video src="trailer/woody.mp4" loop poster="posters/5.jpg" class="video"></video>
+        </div>
+        <div class="movie">
+          <span class="rank">6</span>
+          <video src="trailer/life-list.mp4" loop poster="posters/6.jpg" class="video"></video>
+        </div>
+        <div class="movie">
+          <span class="rank">7</span>
+          <video src="trailer/two-popes.mp4" loop poster="posters/7.jpg" class="video"></video>
+        </div>
+        <div class="movie">
+          <span class="rank">8</span>
+          <video src="trailer/life.mp4" loop poster="posters/8.jpg" class="video"></video>
+        </div>
+        <div class="movie">
+          <span class="rank">9</span>
+          <video src="trailer/inex.mp4" loop poster="posters/9.jpg" class="video"></video>
+        </div>
+        <div class="movie">
+          <span class="rank" id="rank10">10</span>
+          <video src="trailer/paw.mp4" loop poster="posters/10.jpg" class="video"></video>
+        </div>
+        <!-- Add more movie items up to 10 -->
+      </div>
+      <button class="arrow right">&#10095;</button>
+    </div>
+<br><br><br>
+    <h2>Your Next Watch</h2>
+    <div class="carousel">
+      <button class="arrow left">&#10094;</button>
+      <div class="carousel-container">
+        <div class="carousel-item"><video src="trailer4.mp4" muted loop poster="posters/balota.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/choosen.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/conquer.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/counter.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/demon-city.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/electric.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/fastx.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/guilty.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/havoc.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/hello.jpg"></video></div>
+        <!-- more movies -->
+      </div>
+      <button class="arrow right">&#10095;</button>
+    </div>
+<br><br><br> 
+    <h2>Hollywood Movies</h2>
+    <div class="carousel">
+      <button class="arrow left">&#10094;</button>
+      <div class="carousel-container">
+        <div class="carousel-item"><video src="trailer4.mp4" muted loop poster="posters/in-youth.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/jewel.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/johnwick.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/kraven.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/mad.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/maji.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/mario.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/meg.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/memory.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/miracle.jpg"></video></div>
+        <!-- more movies -->
+      </div>
+      <button class="arrow right">&#10095;</button>
+    </div>
+<br><br><br>
+    <h2>Comedy Movies</h2>
+    <div class="carousel">
+      <button class="arrow left">&#10094;</button>
+      <div class="carousel-container">
+        <div class="carousel-item"><video src="trailer4.mp4" muted loop poster="posters/officer.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/operation.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/pango.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/pets2.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/risky.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/sampong-utos-kay-josh.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/slam dunk.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/shooter.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/sosyal.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/sumala.jpg"></video></div>
+        <!-- more movies -->
+      </div>
+      <button class="arrow right">&#10095;</button>
+    </div>
+<br><br><br>
+    <h2>Action Thriller Movies</h2>
+    <div class="carousel">
+      <button class="arrow left">&#10094;</button>
+      <div class="carousel-container">
+        <div class="carousel-item"><video src="trailer4.mp4" muted loop poster="posters/the-karate-kid.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/transformers.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/venom.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/angry.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/anyone.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/back.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/bad.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/becky.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/charlies.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/choosen.jpg"></video></div>
+        <!-- more movies -->
+      </div>
+      <button class="arrow right">&#10095;</button>
+    </div>
+<br><br><br>
+    <h2>New on Netflix</h2>
+    <div class="carousel">
+      <button class="arrow left">&#10094;</button>
+      <div class="carousel-container">
+        <div class="carousel-item"><video src="trailer4.mp4" muted loop poster="posters/passion.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/conquer.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/crods.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/cross.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/death.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/sonic.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/shrek.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/frozen.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/garfield.jpg"></video></div>
+        <div class="carousel-item"><video src="trailer5.mp4" muted loop poster="posters/knight.jpg"></video></div>
+        <!-- more movies -->
+      </div>
+      <button class="arrow right">&#10095;</button>
+    </div>
+<br><br><br>  
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Corporate Information</a></li>
+        </ul>
+      </div>
+      <div class="footer-socials">
+        <ul>
+          <li><a href="#" target="_blank">Facebook</a></li>
+          <li><a href="#" target="_blank">Twitter</a></li>
+          <li><a href="#" target="_blank">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Netflix, Inc. All Rights Reserved</p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
